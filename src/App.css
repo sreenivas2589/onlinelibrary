@@ -1,0 +1,480 @@
+.booklist{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    font-family:Roboto;
+    gap:50px;
+ 
+}
+
+
+.wallpaper img{
+    height:400px;
+    width:450px
+
+}
+
+.wallpaper p {
+    font-size: 2.5rem;
+    font-family: Roboto;
+    font-weight: bolder;
+    color:#4674df;
+    text-shadow:8px 8px 2px black;
+
+}
+
+
+.book p:nth-of-type(1) {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.book p:nth-of-type(2) {
+    font-size: 1rem;
+}
+
+.book p:nth-of-type(3) {
+    font-size: 1rem;
+}
+
+.book p:nth-of-type(4) {
+    font-size: 1rem;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+    border:4px solid black;
+    height:500px;
+    width:320px;
+    transition:all ease-in-out 0.2s;
+}
+
+.book:hover{
+    transform:scale(1.02);
+    box-shadow:5px 5px 10px black;
+
+}
+
+.book button{
+    background-color: #0094ff; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition:all ease-in-out 0.2s;
+}
+
+
+.book button:hover{
+    box-shadow:5px 5px 10px black;
+
+
+}
+
+.nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    
+}
+
+.nav div:nth-of-type(1){
+    display:flex;
+    gap:20px;
+}
+
+.nav button{
+    font-size:1.5rem;
+    color:black;
+    text-decoration:none;
+    background-color:white;
+    cursor:pointer;
+    border:none;
+}
+
+.nav button:hover{
+    border:2px solid black;
+
+}
+
+.nav h1{
+    font-family:Roboto;
+    letter-spacing:1.2px;
+    color:#5985cf;
+}
+
+
+.error-page img {
+    height: 400px;
+    width: 600px;
+    
+
+}
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-page p{
+    font-size:2rem;
+}
+
+.bookscategories{
+    display:flex;
+    font-size:2rem;
+    align-content:center;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:50px;
+
+}
+
+.bookscategories button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    border-radius:10px;
+    font-size:1.4rem;
+    cursor:pointer;
+    margin-bottom:50px;
+}
+
+.addbookdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:left;
+}
+
+.addbookdiv label{
+   font-size:1.5rem;
+   font-weight:bolder;
+   margin-bottom:10px;
+   text-transform:capitalize;
+   text-align:left;
+   font-family:Roboto;
+}
+
+.addbookdiv input {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.addbookdiv button{
+    background-color: #0094ff; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.addbook h1{
+    text-align:center;
+    font-family:Roboto;
+}
+
+.inputfield{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.booksearch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:5px;
+}
+
+.booksearch input{
+    width:500px;
+    height:40px;
+    font-size:1.5rem;
+}
+
+.booksearch button{
+    height:45px;
+    width:100px;
+    font-size:1.5rem;
+    background-color: #0094ff;
+    cursor:pointer;
+}
+
+.browsebooks{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:90px;
+}
+
+.eachbook{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:2px solid black;
+    height:500px;
+    width:410px;
+    transition:all ease-in-out 0.2s;
+}
+
+.eachbook:hover{
+    transform:scale(1.02);
+    box-shadow:5px 5px 10px black;
+}
+.eachbook h1{
+    font-size:1.2rem;
+
+}
+
+.eachbook p:nth-of-type(2){
+    font-size:1.1rem;
+    font-weight:bolder;
+
+}
+
+
+.eachbook h2{
+    font-size:0.98rem;
+
+}
+.eachbook img{
+    height:210px;
+    width:350px;
+    margin-bottom:20px;
+    /*border:2px solid black;*/
+    filter: drop-shadow(8px 8px 0.2rem rgb(0, 0, 0));
+
+}
+
+.eachbook button{
+    background-color: #0094ff; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.eachbook button:hover{
+    box-shadow:5px 5px 10px black;
+}
+
+.bookdetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap:100px;
+}
+
+.bookdetails div:nth-of-type(2){
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+
+.bookdetails img{
+    height:300px;
+    width:380px;
+}
+
+.bookdetails div:nth-of-type(2) p:nth-of-type(1){
+    font-size:1.0rem;
+    font-family:Roboto;
+}
+
+.bookdetails div:nth-of-type(2) p:nth-of-type(2){
+    width:100ch;
+    font-size:1.0rem;
+    font-family:Roboto;
+
+}
+
+.bookdetails div:nth-of-type(2) p:nth-of-type(3){
+    width:100ch;
+    font-size:1.0rem;
+    font-family:Roboto;
+}
+
+.bookdetails div:nth-of-type(2) p:nth-of-type(4){
+    font-size:1.2rem;
+}
+
+
+.bookdetails div:nth-of-type(2) p:nth-of-type(2){
+    font-size:1.0rem;
+}
+
+.bookdetails div:nth-of-type(2) p:nth-of-type(3){
+    font-size:1.0rem;
+}
+
+.categorybook{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:2px solid black;
+    height:500px;
+    width:350px;
+    transition:all ease-in-out 0.2s;
+}
+
+.categorybook:hover{
+    transform:scale(1.02)
+}
+
+
+
+.categorybook button{
+    background-color: #0094ff; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.categorybook button:hover{
+
+    box-shadow:5px 5px 10px black;
+
+}
+
+.categorybook p{
+    font-size:1.2rem;
+}
+
+.categorybook h1{
+    font-size:1.4rem
+}
+
+.categorybook h2{
+    font-size:1.2rem
+}
+
+.categorybookdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/*.menus button{
+    transition:all ease-in-out 0.5s;
+}
+
+.menus button:hover {
+    border: 2px solid black;
+}
+*/
+
+@media screen and (max-width: 900px){
+    .bookdetails{
+        display:flex;
+        flex-direction:column;
+    }
+    .bookdetails div:nth-of-type(2) p:nth-of-type(2) {
+        width: 90ch;
+    }
+
+    .bookdetails div:nth-of-type(2) p:nth-of-type(3) {
+        width: 90ch;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .bookdetails div:nth-of-type(2) p:nth-of-type(2) {
+        width: 75ch;
+    }
+
+    .bookdetails div:nth-of-type(2) p:nth-of-type(3) {
+        width: 75ch;
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+    .bookdetails div:nth-of-type(2) p:nth-of-type(2) {
+        width: 67ch;
+    }
+
+    .bookdetails div:nth-of-type(2) p:nth-of-type(3) {
+        width: 67ch;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .bookdetails div:nth-of-type(2) p:nth-of-type(2) {
+        width: 60ch;
+    }
+
+    .bookdetails div:nth-of-type(2) p:nth-of-type(3) {
+        width: 60ch;
+    }
+
+    .addbookdiv input{
+        width:400px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .bookdetails div:nth-of-type(2) p:nth-of-type(2) {
+        width: 52ch;
+    }
+
+    .bookdetails div:nth-of-type(2) p:nth-of-type(3) {
+        width: 52ch;
+    }
+}
