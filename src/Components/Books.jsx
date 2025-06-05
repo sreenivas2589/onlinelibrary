@@ -1,6 +1,5 @@
 // JavaScript source code
 
-import Image from "./images/beloved.jpg" 
 import { Link } from "react-router-dom"
 import wallpaper from "./images/librarypic.jpg"
 import billy from "./images/billy.jpg"

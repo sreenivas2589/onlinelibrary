@@ -63,7 +63,7 @@
 }
 
 .book button{
-    background-color: #0094ff; /* Green */
+    background-color: #0094ff;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -184,7 +184,7 @@
 }
 
 .addbookdiv button{
-    background-color: #0094ff; /* Green */
+    background-color: #0094ff;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -277,13 +277,12 @@
     height:210px;
     width:350px;
     margin-bottom:20px;
-    /*border:2px solid black;*/
     filter: drop-shadow(8px 8px 0.2rem rgb(0, 0, 0));
 
 }
 
 .eachbook button{
-    background-color: #0094ff; /* Green */
+    background-color: #0094ff; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -371,7 +370,7 @@
 
 
 .categorybook button{
-    background-color: #0094ff; /* Green */
+    background-color: #0094ff; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -411,14 +410,6 @@
     gap: 25px;
 }
 
-/*.menus button{
-    transition:all ease-in-out 0.5s;
-}
-
-.menus button:hover {
-    border: 2px solid black;
-}
-*/
 
 @media screen and (max-width: 900px){
     .bookdetails{

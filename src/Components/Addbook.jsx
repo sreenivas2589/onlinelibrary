@@ -75,7 +75,7 @@ function Addbook() {
 
                     <div className="inputfield">
                         <label htmlFor="rating">rating</label>
-                        <input name="rating" id="rating" onChange={(e) => setrating((e.target.value))} value={rating} placeholder="Enter rating of new book" type="number"></input>
+                        <input name="rating" id="rating" onChange={(e) => setrating((e.target.value))} value={rating} type="number"></input>
                     </div>
 
                     <div className="inputfield">

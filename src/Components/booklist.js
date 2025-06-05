@@ -578,6 +578,7 @@ export const booklist = [
     },
     {
         "title": "Portlets and Apache Portals",
+        "isbn": "1935182512",
         "pageCount": 500,
         "publishedDate": { "$date": "2005-10-01T00:00:00.000-0700" },
         "thumbnailUrl": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/414x8qEhKML._SX342_SY445_.jpg",
